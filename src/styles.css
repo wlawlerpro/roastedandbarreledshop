@@ -1,1 +1,764 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+	background-color: black
+} 
+body {
+	background-color: black ;
+}
+@font-face {
+	font-family: 'Veneer Two';
+	src: url('./assets/fonts/VeneerTwo-webV3/VeneerTwo.woff2') format('woff2'),
+	    url('./assets/fonts/VeneerTwo-webV3/VeneerTwo.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+    }
+    
+    button.calendar, button.calendar:active {
+	width: 2.75rem;
+	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAcCAYAAAAEN20fAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAOxAAADsQBlSsOGwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAEUSURBVEiJ7ZQxToVAEIY/YCHGxN6XGOIpnpaEsBSeQC9ArZbm9TZ6ADyBNzAhQGGl8Riv4BLAWAgmkpBYkH1b8FWT2WK/zJ8ZJ4qiI6XUI3ANnGKWBnht2/ZBDRK3hgVGNsCd7/ui+JkEIrKtqurLpEWaphd933+IyI3LEIdpCYCiKD6HcuOa/nwOa0ScJEnk0BJg0UTUWJRl6RxCYEzEmomsIlPU3IPW+grIAbquy+q6fluy/28RIBeRMwDXdXMgXLj/B2uimRXpui4D9sBeRLKl+1N+L+t6RwbWrZliTTTr1oxYtzVWiTQAcRxvTX+eJMnlUDaO1vpZRO5NS0x48sIwfPc87xg4B04MCzQi8hIEwe4bl1DnFMCN2zsAAAAASUVORK5CYII=') !important;
+	background-repeat: no-repeat;
+	background-size: 23px;
+	background-position: center;
+      }
+      
+      /* Sortable table demo */
+      
+      th[sortable] {
+	cursor: pointer;
+	user-select: none;
+	-webkit-user-select: none;
+      }
+      
+      th[sortable].desc:before, th[sortable].asc:before {
+	content: '';
+	display: block;
+	background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAmxJREFUeAHtmksrRVEUx72fH8CIGQNJkpGUUmakDEiZSJRIZsRQmCkTJRmZmJgQE0kpX0D5DJKJgff7v+ru2u3O3vvc67TOvsdatdrnnP1Y///v7HvvubdbUiIhBISAEBACQkAICAEhIAQ4CXSh2DnyDfmCPEG2Iv9F9MPlM/LHyAecdyMzHYNwR3fdNK/OH9HXl1UCozD24TCvILxizEDWIEzA0FcM8woCgRrJCoS5PIwrANQSMAJX1LEI9bqpQo4JYNFFKRSvIgsxHDVnqZgIkPnNBM0rIGtYk9YOOsqgbgepRCfdbmFtqhFkVEDVPjJp0+Z6e6hRHhqBKgg6ZDCvYBygVmUoEGoh5JTRvIJwhJo1aUOoh4CLPMyvxxi7EWOMgnCGsXXI1GIXlZUYX7ucU+kbR8NW8lh3O7cue0Pk32MKndfUxQFAwxdirk3fHappAnc0oqDPzDfGTBrCfHP04dM4oTV8cxr0SVzH9FF07xD3ib6xCDE+M+aUcVygtWzzbtGX2rPBrEUYfecfQkaFzYi6HjVnGBdtL7epqAlc1+jRdAap74RrnPc4BCijttY2tRcdN0g17w7HqZrXhdJTYAuS3hd8z+vKgK3V1zWPae0mZDMykadBn1hTQBLnZNwVrJpSe/NwEeDsEwCctEOsJTsgxLvCqUl2ACftEGvJDgjxrnBqkh3ASTvEWrIDQrwrnJpkB3DSDrGW7IAQ7wqnJtkBnLRztejXXVu4+mxz/nQ9jR1w5VB86ejLTFcnnDwhzV+F6T+CHZlx6THSjn76eyyBIOPHyDakhBAQAkJACAgBISAEhIAQYCLwC8JxpAmsEGt6AAAAAElFTkSuQmCC') no-repeat;
+	background-size: 22px;
+	width: 22px;
+	height: 22px;
+	float: left;
+	margin-left: -22px;
+      }
+      
+      th[sortable].desc:before {
+	transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+      }
+      
+      /* Filtering table demo */
+      ngbd-table-filtering span.ngb-highlight {
+	background-color: yellow;
+      }
+      
+      /* Complete table demo */
+      ngbd-table-complete span.ngb-highlight {
+	background-color: yellow;
+      }
+    ngb-carousel .picsum-img-wrapper {
+	position: relative;
+	height: 0;
+	padding-top: 55%; /* Keep ratio for 900x500 images */
+      }
+      
+       /*start*/
+
+      
+
+      @media only screen and (max-width: 415px) {
+	ngbd-carousel-basic {
+		position: relative;
+		top: 250px;
+		
+		
+	}
+	
+      } 
+      ngbd-carousel-basic {
+	position: relative; 
+	bottom: 25px;
+	background-color: transparent;
+}
+
+      ngb-carousel .picsum-img-wrapper>img {
+	position: absolute;
+	top: 0;
+	left: 305px;
+	bottom: 0;
+	right: 0;
+	
+      }
+      
+  
+  
+      
+      p {
+	background-color: transparent;
+      } 
+      
+      div.slide-class{
+	color: white;
+	background-color: transparent;
+	position: relative;
+	bottom: 190px; 
+	font-family:'Veneer Two' ;
+ 
+      }
+      
+      .carousel-caption{
+	background-color: transparent;
+	align-content: center;
+	position: absolute;
+	top:90%;
+      }
+     @media only screen and (max-width:415px){
+      .carousel-indicators {
+        position:absolute ;
+	bottom: -500px;
+	background-color: transparent;
+	
+      }    
+   
+}
+      @media only screen and (min-width:416px){
+      .carousel-indicators {
+		background-color: transparent;
+	      }
+	}
+      @media only screen and (max-width: 415px){
+      .carousel-item {
+	position: relative;
+	top: 70%;
+      }
+ } 
+ @media only screen and (max-width: 415px){
+	.previous-c{
+	display: none;
+	}
+	ngb-carousel-basic {
+		position: relative;
+		top: 300px
+	}
+   }    
+   
+      .carousel-item {
+	     position: relative;
+	     top: 70%;
+	  
+
+      }
+     .flex-container {
+	     display:flex ;
+	     justify-content: center;
+	     align-items: center;
+	     position:relative;
+	     top: 200px
+     } 
+     .display-contact{
+	     display: flex;
+	     justify-content: center;
+	     align-items: center;
+     }
+      .contact {
+	      background-color: transparent;
+	     
+      }
+      .fa-github{
+	      font-size: 36px;
+	      color:  #f6b519
+      }
+      .fa-linkedin{
+	      padding-left: 22px;
+	      font-size: 36px;
+	      color:  #f6b519;
+      }
+      .fa-folder-open{
+	padding-left: 22px;
+	font-size: 36px;
+	color:  #f6b519;
+}
+
+      .picsum-img-wrapper{
+	      position: relative;
+	      top: 80px;
+	      background-color: transparent;
+      }
+	  
+      /*slide one*/ 
+      @media only screen and (max-width: 415px){
+	div.slide-1 {
+	 position: fixed; 
+	 left: -80%;
+	 top:15%;
+	 display:none;
+	}
+	div.slide-1m{
+		position: fixed; 
+		left: -70%;
+		top:15%;
+		z-index: -1;	
+	}
+}
+@media only screen and (min-width: 416px){
+	div.slide-1 {
+	 position: relative;
+	 left: 15%;
+	}
+        div.slide-1m{
+		display:none;
+	}
+	
+}
+      /*slide two*/ 
+      @media only screen and (max-width: 415px){
+	div.slide-2 {
+	 display:none
+	}
+	div.slide-2m{
+		position: fixed; 
+		left:-62%;
+		top: 15%;
+		z-index: -1;
+	}
+}
+      @media only screen and (min-width: 416px){ 
+	div.slide-2{
+	position:relative;
+	left: 17%;
+      }
+        div.slide-2m {
+		display: none; 
+	}
+}
+      
+  
+      /*slide three*/
+      @media only screen and (max-width: 415px){
+	div.slide-3{
+		
+	        display:none}
+
+	 div.slide-3m{
+		position: fixed; 
+		left:-73%;
+		top: 15%;
+		z-index: -1;
+		}
+	}
+
+   @media only screen and (min-width:416px){   
+	  div.slide-3 {
+	position: relative; 
+	left:15%
+      }
+
+    
+      div.slide-3m{
+	display: none 
+	
+      }
+}
+      
+      
+      /*slide four*/ 
+      @media only screen and (max-width: 415px){
+	div.slide-4 {
+		
+		display:none;
+	}
+	div.slide-4m{
+		position: fixed; 
+		left:-70%;
+		top: 15%;	
+	}
+}
+@media only screen and (min-width: 416px){
+      div.slide-4{
+	position:relative;
+	left:15%;
+	
+      }
+      
+      div.slide-4m{
+	display:none
+	
+      }
+}
+      /*slide five*/
+      @media only screen and (max-width:415px){
+       .slide-5{
+	
+	display:none;
+      }
+      div.slide-5m{
+	position: fixed; 
+	left: -67%;
+	top:15%;
+	z-index: -1;
+
+      }
+}    
+	@media only screen and (min-width: 416px){
+		div.slide-5{
+		position:relative; 
+	        left: 12%;
+		}
+		div.slide-5m{
+			display:none;
+		}
+
+	}
+   
+      
+      /*slide six */ 
+       @media only screen and (max-width: 415px){
+	div.slide-6 {
+		position: fixed; 
+		left:-70%;
+		top: 15%;
+	}
+}
+   @media only screen and (min-width: 416px) {
+      div.slide-6{
+	position:relative; 
+	left: 17%;
+      }
+      p.slide-6{
+	background-color: black;
+	position: relative;
+	top: 125px ;
+	
+      }
+}
+      /*slide seven*/ 
+      @media only screen and (max-width: 415px){
+	div.slide-7 p {
+	 font-size: 20px;
+	 width:100%;
+	 max-width: 388px;
+	 word-wrap: break-word;
+	 text-align: center;
+	 position: fixed; 
+	 top:25%;
+	 max-height:400px ;
+	 align-content: center;
+	 justify-content: center;
+	}
+
+      }
+      @media only screen and (min-width: 416px){
+      .slide-7 p{
+	
+	font-size: 2vw;
+	align-content: center;
+	position: fixed;
+	justify-content: center;
+	align-items: center;
+	bottom:30%;
+	right:22%;
+	padding: 0px 20px 0px 20px; 
+	max-width: 750px; 
+	word-wrap: break-word;
+	
+
+      }
+}
+
+      /*slide eight*/
+      @media only screen and (max-width:415px){
+	div.slide-8{
+	  display:none;
+	}
+	div.slide-8m{
+	  position: fixed; 
+	  right: 720px;
+	  top:15%
+  
+	}
+  }    
+	  @media only screen and (min-width: 416px){
+		  div.slide-8m{
+			  display:none;
+		  }
+		  div.slide-8{
+			position:relative;
+			right:195px;
+			bottom:200px;
+		      }
+		      
+		     
+	  }
+     
+	
+      
+    
+      
+      /* slide nine */
+       
+      @media only screen and (max-width: 415px){
+	div.slide-9 p {
+	 font-size: 20px;
+	 width:100%;
+	 max-width: 388px;
+	 word-wrap: break-word;
+	 text-align: center;
+	 position: fixed; 
+	 top:25%;
+	 max-height:400px ;
+	 align-content: center;
+	 justify-content: center;
+	}
+
+      } 
+  
+    @media only screen and (min-width: 416px){
+      div.slide-9 p{
+	font-size: 2vw;
+	align-content: center;
+	position: fixed;
+	justify-content: center;
+	align-items: center;
+	bottom:20%;
+	right:22%;
+	padding: 0px 20px 0px 20px; 
+	max-width: 750px; 
+	word-wrap: break-word;
+	
+      }
+     
+}
+      /*slide ten*/
+
+      @media only screen and (max-width: 415px){
+	div.slide-10 {
+		position: fixed; 
+		left: -78%;
+		bottom:15%;	
+		display: none;
+	}
+	div.slide-10m{
+		position: fixed; 
+		left: -78%;
+		bottom:15%;
+		
+	}
+  }
+
+      @media only screen and (min-width: 416px){
+      div.slide-10 {
+	position:relative; 
+	left: 75px;
+	top: 40%;
+      }
+      div.slide-10m{
+	display: none; 
+      }
+}
+   
+        
+      
+      /*slide eleven*/
+      @media only screen and (max-width: 415px){
+	.slide-11 p {
+	 font-size: 20px;
+	 width:100%;
+	 max-width: 388px;
+	 word-wrap: break-word;
+	 text-align: center;
+	 position: fixed; 
+	 top:25%;
+	 max-height:400px ;
+	 align-content: center;
+	 justify-content: center;
+	}
+	}
+      @media only screen and (min-width: 416px) {
+      .slide-11 p{
+	font-size: 2vw;
+	align-content: center;
+	position: fixed;
+	justify-content: center;
+	align-items: center;
+	bottom:50%;
+	right:22%;
+	padding: 0px 20px 0px 20px; 
+        max-width: 750px; 
+	word-wrap: break-word;
+      }
+}
+      
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Skill Side CSS>>>>>>>>>>>>>>>>>>*/
+.product-list {
+	font-family: 'Veneer Two';
+	      src: url('./assets/fonts/VeneerTwo-webV3/VeneerTwo.woff2') format('woff2'),
+		  url('./assets/fonts/VeneerTwo-webV3/VeneerTwo.woff') format('woff');
+	      font-weight: normal;
+	      font-style: normal;
+	      font-display: swap;
+	  color: white;
+	  box-sizing: border-box;
+	  -webkit-font-smoothing: antialiased;
+	  -moz-osx-font-smoothing: grayscale;
+	position: relative;
+	top:60px;
+	left:12px;
+	padding: 6px
+
+	}
+h2.product-list{
+	font-size: 6.5vw;
+	text-decoration: underline;
+}
+p.price{
+	font-size: 16px;
+}
+
+
+  /* Text */
+  
+  h1 {
+	font-size: 32px;
+      }
+      
+      h2 {
+	font-size: 20px;
+	color: #ffffff
+      }
+      
+      h1, h2 {
+	font-weight: lighter;
+      }
+      
+      p {
+	
+	color: #d2d4d6
+      }
+      
+      /* Hyperlink */
+      
+      a {
+	cursor: pointer;
+	color: #ffffff;
+	text-decoration: none;
+      }
+      
+      a:hover {
+	opacity: 0.8;
+      }
+
+/*Product Details */
+h2.details-title{ 
+	font-family: 'Veneer Two';
+	src: url('./assets/fonts/VeneerTwo-webV3/VeneerTwo.woff2') format('woff2'),
+	    url('./assets/fonts/VeneerTwo-webV3/VeneerTwo.woff') format('woff');
+	position: relative; 
+	left: 15px;
+	color: #f6b519
+}
+h3.details-product-name {
+	font-family: 'Veneer Two';
+	src: url('./assets/fonts/VeneerTwo-webV3/VeneerTwo.woff2') format('woff2'),
+	    url('./assets/fonts/VeneerTwo-webV3/VeneerTwo.woff') format('woff');
+	color:#ffffff;
+	position: relative; 
+	left: 10px;
+
+}
+
+/*Product-Description*/
+h3.description-header {
+	font-family: 'Veneer Two';
+	src: url('./assets/fonts/VeneerTwo-webV3/VeneerTwo.woff2') format('woff2'),
+	    url('./assets/fonts/VeneerTwo-webV3/VeneerTwo.woff') format('woff');
+	text-decoration: underline;
+	color:#f6b519;	
+	margin-top: 20px;
+	margin-left:12px;
+	
+}
+@media only screen and (min-width: 416px){
+p.product-description {
+	font-family: 'Veneer Two';
+	src: url('./assets/fonts/VeneerTwo-webV3/VeneerTwo.woff2') format('woff2'),
+	    url('./assets/fonts/VeneerTwo-webV3/VeneerTwo.woff') format('woff');
+	color:#ffffff;
+	word-wrap: normal;
+	width: 50%;
+	margin-left:20px;	
+}
+}
+@media only screen and (max-width: 415px){
+	p.product-description {
+		font-family: 'Veneer Two';
+		src: url('./assets/fonts/VeneerTwo-webV3/VeneerTwo.woff2') format('woff2'),
+		    url('./assets/fonts/VeneerTwo-webV3/VeneerTwo.woff') format('woff');
+		color:#ffffff;
+		word-wrap: normal;
+		width: 75%;
+		margin-left:25px;
+		font-size: 22px;	
+	}
+}
+h4.item-price {
+	color:#ffffff;
+	margin-left:19px; 
+	margin-bottom: 20px
+}
+button.add-to-cart{
+	margin-left: 20px;
+	margin-bottom: 75px;
+}
+
+button.buy-it-now{
+	margin-left: 10px;
+	margin-bottom:75px;
+
+}
+/* Input */
+  
+input {
+	font-size: 14px;
+	border-radius: 2px;
+	padding: 8px;
+	margin-bottom: 16px;
+	border: 1px solid #BDBDBD;
+      }
+      
+      label {
+	font-size: 12px;
+	font-weight: bold;
+	margin-bottom: 4px;
+	display: block;
+	text-transform: uppercase;
+      }
+   /* Button */
+   .button, button {
+	display: inline-flex;
+	align-items: center;
+	padding: 8px 16px;
+	border-radius: 2px;
+	font-size: 14px;
+	cursor: pointer;
+	background-color: #f6b519;
+	color: black;
+	border: none;
+      }
+      /* Back Button */
+      .back {
+	position: fixed
+	top 30px 
+      }
+      .button:hover, button:hover {
+	opacity: 0.8;
+	font-weight: normal;
+      }
+      
+      .button:disabled, button:disabled {
+	opacity: 0.5;
+	cursor: auto;
+      }
+      
+
+ /*back button*/
+ @media only screen and (max-width: 415px){
+ .previous-m {
+	background-color: #f6b519;
+	color: black;
+	padding: 5px;
+	position: fixed;
+	top: 10% !important;
+	left: 10px
+	
+}
+.previous-c {
+	
+	display: none;
+	
+}
+ }
+ @media only screen and (min-width: 416px){
+ .previous-m {
+	
+	 display:none; 
+ }
+ .previous-c {
+	background-color: #f6b519;
+	color: black;
+	padding: 5px;
+	position: fixed ;
+	top: 1%;
+	left: 20%;
+	
+}
+.previous-s {
+	background-color: #f6b519;
+	color: black;
+	padding: 5px;
+	position: fixed ;
+	top: 9%;
+	left: 2%;
+	
+}
+}
+  /* Fancy Button */
+  
+  .fancy-button {
+	background-color: #f6b519;
+	color: #ffffff;
+      }
+      
+    
+/*Top Bar*/
+app-top-bar {
+	width: 100%;
+	height: 68px;
+	background-color: black;
+	padding: 16px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+      }
+      
+      app-top-bar h1 {
+	color: white;
+	margin: 0;
+	font-family: 'Veneer Two';
+	    src: url('./assets/fonts/VeneerTwo-webV3/VeneerTwo.woff2') format('woff2'),
+		url('./assets/fonts/VeneerTwo-webV3/VeneerTwo.woff') format('woff');
+	 background-color: black;
+      }
+      h1.storenav{
+	      font-size: 5vw;
+      }
+   /* Checkout Cart, Shipping Prices */
+
+   
+  
+  .cart-item{
+	width: 100%;
+	min-width: 400px;
+	max-width: 450px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 16px 32px;
+	margin-bottom: 8px;
+	border-radius: 2px;
+	background-color: transparent;
+	color: #f6b519;
+	display: flex; 
+	align-items: center; 
+	font-size: 1.5vw;	
+      }
+   .cart-header{
+	font-family: 'Veneer Two';
+	src: url('./assets/fonts/VeneerTwo-webV3/VeneerTwo.woff2') format('woff2'),
+	    url('./assets/fonts/VeneerTwo-webV3/VeneerTwo.woff') format('woff');
+	text-decoration: underline;
+	color:#f6b519;	
+	margin-top: 20px;
+	margin-left:12px;
+	  
+   } 

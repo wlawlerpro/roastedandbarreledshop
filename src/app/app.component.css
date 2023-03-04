@@ -1,0 +1,22 @@
+*{
+	background-color: transparent;
+}
+/*.container{
+	position: relative;
+	top: 40px;
+
+}
+*/
+
+.title {
+	text-align: center;
+	color: white;
+	font-family: 'Veneer Two';
+	font-size: 6vw; 
+}
+a.title{
+	text-decoration: none;
+	position:relative;
+	top: 60px;
+}
+

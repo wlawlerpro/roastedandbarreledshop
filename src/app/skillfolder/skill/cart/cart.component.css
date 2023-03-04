@@ -1,0 +1,157 @@
+* {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	
+	
+      }
+      
+	
+
+
+
+
+
+    
+
+    
+ 
+
+    
+    .cart-table {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	min-width: none;
+	word-wrap: break-word;
+	
+    }
+   table{
+	table-layout: auto;
+	width:100% !important;
+	border-color: white;
+	background-clip: border-box;
+	border: 3px solid rgba(0, 0, 0, 0.2);
+	border-radius: .25rem;
+	margin-left: auto;
+	margin-right: auto;
+	
+   } 
+ 
+    .third-row{
+	position: relative  !important; 
+	left: 75%;
+	display: flex;
+	/*padding-top: 5px;*/
+	
+
+    }
+
+    tr th {
+	color: #f6b519 
+    }
+    td.remove{
+	position: relative;
+	right: 15px;
+    }
+    td.remove{
+	position: relative;
+	right: 15px;
+    }
+    td.input{
+	text-align: center;
+	padding-top:10px;
+    }
+    td.price{
+	text-align: left;
+	color: white;
+	position:relative; 
+	right: 6px; 
+
+    }
+    td.total{
+	text-align: right; 
+	color: #f6b519 
+    }
+  
+    .btn-primary{
+	margin-right: 10px;
+    }
+    .pl-6{
+	margin-right: 30px;
+    } 
+
+    .tc1{
+	color: white; 
+    }
+
+  
+    
+  /*Mobile Settings */
+    @media only screen and (max-width: 415px){
+	.container{
+		display:none
+	}
+	tr.th{
+		width: 80%;
+
+	}
+	.tc1{
+		font-size: 4vw;
+	}
+	.bottom{
+		position: relative;
+		right: 205px;
+	}
+	button {
+		font-size: 2vw	;
+	
+	
+	}
+	button.shop{
+		white-space: nowrap;
+		
+	}
+	.total{
+		position:relative;
+		right: 145px;
+	}
+	.noItem{
+		align-content:center; 
+		padding-top: 50%;
+	}
+	.remove {
+		position: relative;
+		left: 3%
+	}
+	
+    }
+    @media only screen and (min-width: 416px){
+	.mobileContainer {
+		display: none 
+		
+	}
+   
+    }
+    /*empty cart */
+    .noItem{
+	background-color: black;
+	color: #f6b519;
+	padding-top: 15%;
+    }
+   .center{
+	text-align: center;
+	font-family:'Veneer Two' ;
+   }
+    .card{
+	background-color: transparent;
+
+    }
+    .center button{
+	font-family: 'Veneer Two';
+	font-size: 14px !important;
+	margin-top: 20px !important;
+	font-weight: 400;
+	padding: 12px 72px;
+    }
+  

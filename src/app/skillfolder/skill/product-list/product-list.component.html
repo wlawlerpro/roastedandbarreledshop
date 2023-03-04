@@ -1,0 +1,25 @@
+<app-top-bar></app-top-bar>
+<a [routerLink]="['']" class="previous-s ">
+    &#8249;
+    </a>
+   
+   <h2 class="product-list">Products</h2>
+   
+   <div class="product-list" *ngFor='let product of products; index as productId'>
+   <h3>
+      <a [title]="product.name + 'details'"
+      routerLink="/products/{{product.id}}">
+	  {{product.name }}
+      </a>
+   </h3>
+ 
+   <p *ngIf="product.price" class="price"> 
+       Price: {{ product.price | currency}}
+   </p>
+   
+   <button [routerLink]="['/products', product.id]" >
+       See Product Details
+   </button>
+   
+   </div>
+   

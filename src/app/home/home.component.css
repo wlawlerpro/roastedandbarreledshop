@@ -1,0 +1,48 @@
+*{
+	background-color: transparent;
+}
+
+.title {
+	text-align: center;
+	color: white;
+	font-family: 'Veneer Two';
+	font-size: 6vw; 
+}
+a.title{
+	text-decoration: none;
+	position:relative;
+	top: 60px;
+}
+
+
+      .contact {
+	text-align: center;
+	color: white;
+	font-family: 'Veneer Two';
+	font-size: 20px;
+	background-color: transparent;
+        position: relative; 
+	top: 400px
+}
+.menu-button {
+	padding: 1rem;
+	text-decoration: none;
+	margin-top: 40px;
+	margin-right: 25px;
+	display: inline-block;
+	font-family: 'Veneer Two';
+	background-color: #f6b519;
+	color: #3d3d3d;
+	border-radius: 8px;
+	/*position: relative;
+	top: 260px;
+	left: 500px;*/
+      }
+      
+.menu-button a:hover {
+	color: white;
+	background-color: #42545C;
+      }
+.menu-button a.active {
+	background-color: black;
+      }

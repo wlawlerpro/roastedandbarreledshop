@@ -1,0 +1,80 @@
+<app-top-bar></app-top-bar>
+
+<a [routerLink]="['']" class="previous ">
+  &#8249;
+  </a>
+
+<ng-container *ngIf="items.length >=1">
+<h3 class="cart-header">Cart</h3>
+
+<div class="container">
+  <div class="cart-table">
+    <div class="products-n-cart">
+     <table class="table table-main">
+      <thead> 
+       <tr class="header-row"> 
+        <th>Name</th> 
+        <th>Price</th> 
+        <th>Action</th> 
+       </tr>
+      </thead>
+      <tbody> 
+       <tr *ngFor="let item of items; let i = index">
+        <td  class="tc1">{{item.name}}</td>
+        <td  class="price"> {{item.price | currency: "USD": true}}</td> 
+        <td  class="remove tc1"> <button type="button remove" (click)="onRemove(i)"> Remove </button> </td>
+       </tr> 
+       <tr class="third-row">
+        <td><button [routerLink]="['/skill']" class=" bottom ">Shop More</button></td>
+        <td><button type="button" class="bottom pl-6" (click)="onSubmit()">Checkout</button></td>
+      
+        <td  class="total" ><strong>Total: {{this.total | currency: "USD":true}}</strong></td>
+        </tr>
+     </tbody> 
+
+   </table>
+  </div>
+ </div> 
+</div>
+<div class="mobileContainer">
+  <div class="cart-table">
+   
+     <table class="table table-main ">
+      <thead> 
+       <tr class="header-row"> 
+        <th>Name</th> 
+        <th>Price</th> 
+        <th>Action</th> 
+       </tr>
+      </thead>
+      <tbody> 
+       <tr *ngFor="let item of items; let i = index">
+        <td  class="tc1">{{item.name}}</td>
+        <td  class="price"> {{item.price | currency: "USD": true}}</td> 
+        <td  class="remove tc1"> <button type="button remove" (click)="onRemove(i)">X</button> </td>
+       </tr> 
+       <tr class="third-row">
+        <td><button [routerLink]="['/skill']" class=" bottom shop ">Shop More</button></td>
+        <td><button type="button" class="bottom pl-6" (click)="onSubmit()">Checkout</button></td>
+      
+        <td  class="total" ><strong>Total: {{this.total | currency: "USD":true}}</strong></td>
+        </tr>
+     </tbody> 
+
+   </table>
+  
+ </div> 
+</div>
+</ng-container>
+
+<ng-container *ngIf="items.length ==0">
+  <div class="noItem">
+   
+      <div class="center">
+          
+          <h4>Your cart is empty!</h4>
+          <h6>Add items to it now!</h6>
+          <button routerLink="/skill" class="button">Shop Now</button>
+      </div>
+  </div>
+</ng-container>

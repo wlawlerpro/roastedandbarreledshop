@@ -1,0 +1,17 @@
+
+<app-top-bar></app-top-bar>
+<h2 class="details-title">Product Details</h2>
+<a [routerLink]="[SKILL_ROUTE]"class="previous ">
+  &#8249;
+  </a>
+
+<div *ngIf="product">
+  <h3 class="details-product-name" >  {{product.name }}</h3>
+  <img src={{product.productImage}}>
+  <h3 class="description-header">Description</h3>
+  <p class="product-description">{{ product.description }}</p>
+  <h4 class="item-price">{{ product.price | currency }}</h4>
+<button (click)="addToCart(product)" class="add-to-cart">Add to Cart</button>
+<button (click)=onBuy() class="buy-it-now"> Buy </button>
+
+</div>
