@@ -4,7 +4,7 @@
 
 .title {
 	text-align: center;
-	color: white;
+	color: black;
 	font-family: 'Veneer Two';
 	font-size: 6vw; 
 }
@@ -17,7 +17,7 @@ a.title{
 
       .contact {
 	text-align: center;
-	color: white;
+	color: black;
 	font-family: 'Veneer Two';
 	font-size: 20px;
 	background-color: transparent;

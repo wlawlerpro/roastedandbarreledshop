@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-	title = 'Welcome to Black Rifle Hire We.com';
+	title = 'Welcome to Roasted and Barreled Shop';
 	mainMenu = true;
 	name = 'Wes Lawler'; 
 	address= 'wes.lawler2@gmail.com';
