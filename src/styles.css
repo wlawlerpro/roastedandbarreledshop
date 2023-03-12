@@ -532,14 +532,14 @@ p.price{
       
       p {
 	
-	color: #d2d4d6
+	color: black
       }
       
       /* Hyperlink */
       
       a {
 	cursor: pointer;
-	color: #ffffff;
+	color: black;
 	text-decoration: none;
       }
       
@@ -560,7 +560,7 @@ h3.details-product-name {
 	font-family: 'Veneer Two';
 	src: url('./assets/fonts/VeneerTwo-webV3/VeneerTwo.woff2') format('woff2'),
 	    url('./assets/fonts/VeneerTwo-webV3/VeneerTwo.woff') format('woff');
-	color:#f11818;
+	color:#ffffff;
 	position: relative; 
 	left: 10px;
 
