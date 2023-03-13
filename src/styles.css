@@ -713,7 +713,7 @@ input {
 app-top-bar {
 	width: 100%;
 	height: 68px;
-	background-color: black;
+	background-color: white;
 	padding: 16px;
 	display: flex;
 	flex-direction: row;
@@ -722,12 +722,12 @@ app-top-bar {
       }
       
       app-top-bar h1 {
-	color: white;
+	color: black;
 	margin: 0;
 	font-family: 'Veneer Two';
 	    src: url('./assets/fonts/VeneerTwo-webV3/VeneerTwo.woff2') format('woff2'),
 		url('./assets/fonts/VeneerTwo-webV3/VeneerTwo.woff') format('woff');
-	 background-color: black;
+	 background-color: white;
       }
       h1.storenav{
 	      font-size: 5vw;
