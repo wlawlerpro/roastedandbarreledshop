@@ -496,12 +496,13 @@ body {
 	      font-weight: normal;
 	      font-style: normal;
 	      font-display: swap;
-	  color: white;
+	  color: black;
+	  background-color: transparent;
 	  box-sizing: border-box;
 	  -webkit-font-smoothing: antialiased;
 	  -moz-osx-font-smoothing: grayscale;
 	position: relative;
-	top:60px;
+        top:30px;
 	left:12px;
 	padding: 6px
 
