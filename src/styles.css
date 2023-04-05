@@ -555,7 +555,7 @@ h2.details-title{
 	    url('./assets/fonts/VeneerTwo-webV3/VeneerTwo.woff') format('woff');
 	position: relative; 
 	left: 15px;
-	color: #f6b519
+	color: #42545c
 }
 h3.details-product-name {
 	font-family: 'Veneer Two';
@@ -573,7 +573,7 @@ h3.description-header {
 	src: url('./assets/fonts/VeneerTwo-webV3/VeneerTwo.woff2') format('woff2'),
 	    url('./assets/fonts/VeneerTwo-webV3/VeneerTwo.woff') format('woff');
 	text-decoration: underline;
-	color:#f6b519;	
+	color:#42545c;	
 	margin-top: 20px;
 	margin-left:12px;
 	
