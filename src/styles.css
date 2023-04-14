@@ -664,7 +664,7 @@ input {
  /*back button*/
  @media only screen and (max-width: 415px){
  .previous-m {
-	background-color: #f6b519;
+	background-color: #42545c;
 	color: black;
 	padding: 5px;
 	position: fixed;
@@ -684,7 +684,7 @@ input {
 	 display:none; 
  }
  .previous-c {
-	background-color: #f6b519;
+	background-color: #42545c;
 	color: black;
 	padding: 5px;
 	position: fixed ;
@@ -693,7 +693,7 @@ input {
 	
 }
 .previous-s {
-	background-color: #f6b519;
+	background-color: #42545c;
 	color: black;
 	padding: 5px;
 	position: fixed ;
