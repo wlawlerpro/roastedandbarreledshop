@@ -490,9 +490,7 @@ body {
 
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Skill Side CSS>>>>>>>>>>>>>>>>>>*/
 .product-list {
-	font-family: 'Veneer Two';
-	      src: url('./assets/fonts/VeneerTwo-webV3/VeneerTwo.woff2') format('woff2'),
-		  url('./assets/fonts/VeneerTwo-webV3/VeneerTwo.woff') format('woff');
+	font-family: 'Raleway, sans-serif';
 	      font-weight: normal;
 	      font-style: normal;
 	      font-display: swap;
@@ -550,17 +548,15 @@ p.price{
 
 /*Product Details */
 h2.details-title{ 
-	font-family: 'Veneer Two';
-	src: url('./assets/fonts/VeneerTwo-webV3/VeneerTwo.woff2') format('woff2'),
-	    url('./assets/fonts/VeneerTwo-webV3/VeneerTwo.woff') format('woff');
+	font-family: 'Raleway, sans-serif';
+	
 	position: relative; 
 	left: 15px;
 	color: #42545c
 }
 h3.details-product-name {
-	font-family: 'Veneer Two';
-	src: url('./assets/fonts/VeneerTwo-webV3/VeneerTwo.woff2') format('woff2'),
-	    url('./assets/fonts/VeneerTwo-webV3/VeneerTwo.woff') format('woff');
+	font-family: 'Raleway, sans-serif';
+	
 	color:#ffffff;
 	position: relative; 
 	left: 10px;
@@ -569,9 +565,8 @@ h3.details-product-name {
 
 /*Product-Description*/
 h3.description-header {
-	font-family: 'Veneer Two';
-	src: url('./assets/fonts/VeneerTwo-webV3/VeneerTwo.woff2') format('woff2'),
-	    url('./assets/fonts/VeneerTwo-webV3/VeneerTwo.woff') format('woff');
+	font-family: 'Raleway, sans-serif';
+	
 	text-decoration: underline;
 	color:#42545c;	
 	margin-top: 20px;
@@ -580,9 +575,8 @@ h3.description-header {
 }
 @media only screen and (min-width: 416px){
 p.product-description {
-	font-family: 'Veneer Two';
-	src: url('./assets/fonts/VeneerTwo-webV3/VeneerTwo.woff2') format('woff2'),
-	    url('./assets/fonts/VeneerTwo-webV3/VeneerTwo.woff') format('woff');
+	font-family: 'Raleway, sans-serif';
+	
 	color:#ffffff;
 	word-wrap: normal;
 	width: 50%;
@@ -591,10 +585,8 @@ p.product-description {
 }
 @media only screen and (max-width: 415px){
 	p.product-description {
-		font-family: 'Veneer Two';
-		src: url('./assets/fonts/VeneerTwo-webV3/VeneerTwo.woff2') format('woff2'),
-		    url('./assets/fonts/VeneerTwo-webV3/VeneerTwo.woff') format('woff');
-		color:#ffffff;
+		font-family: 'Raleway, sans-serif';
+		
 		word-wrap: normal;
 		width: 75%;
 		margin-left:25px;
@@ -725,9 +717,8 @@ app-top-bar {
       app-top-bar h1 {
 	color: black;
 	margin: 0;
-	font-family: 'Veneer Two';
-	    src: url('./assets/fonts/VeneerTwo-webV3/VeneerTwo.woff2') format('woff2'),
-		url('./assets/fonts/VeneerTwo-webV3/VeneerTwo.woff') format('woff');
+	font-family: 'Raleway, sans-serif';
+	
 	 background-color: white;
       }
       h1.storenav{
@@ -754,9 +745,8 @@ app-top-bar {
 	font-size: 1.5vw;	
       }
    .cart-header{
-	font-family: 'Veneer Two';
-	src: url('./assets/fonts/VeneerTwo-webV3/VeneerTwo.woff2') format('woff2'),
-	    url('./assets/fonts/VeneerTwo-webV3/VeneerTwo.woff') format('woff');
+	font-family: 'Raleway, sans-serif';
+
 	text-decoration: underline;
 	color:#f6b519;	
 	margin-top: 20px;
