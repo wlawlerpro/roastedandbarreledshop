@@ -48,7 +48,7 @@
     }
 
     tr th {
-	color: #f6b519 
+	color: black 
     }
     td.remove{
 	position: relative;
@@ -64,14 +64,14 @@
     }
     td.price{
 	text-align: left;
-	color: white;
+	color: black;
 	position:relative; 
 	right: 6px; 
 
     }
     td.total{
 	text-align: right; 
-	color: #f6b519 
+	color: black
     }
   
     .btn-primary{
@@ -82,7 +82,7 @@
     } 
 
     .tc1{
-	color: white; 
+	color: black; 
     }
 
   
@@ -135,7 +135,7 @@
     }
     /*empty cart */
     .noItem{
-	background-color: black;
+	background-color:white;
 	color: #f6b519;
 	padding-top: 15%;
     }
